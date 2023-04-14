@@ -110,3 +110,27 @@
       font-weight: 400;
 
     }
+
+    .conteudo .textoPrincipal h2 span {
+      color: var(--corPrimaria);
+      font-size: 1.2em;
+      font-weight: 900;
+
+    }
+    .conteudo .textoPrincipal p {
+      color: var(--corSecundaria);
+    }
+
+    /* Botão */
+    .conteudo .textoPrincipal a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 8px 20px;
+      background: var(--corPrimaria);
+      color: var(--corTerciaria);
+      border-radius: 40px;
+      font-weight: 600;
+      letter-spacing: 1px; /* Espaço entre os caracteres */
+      text-decoration: none;
+    }
+    
